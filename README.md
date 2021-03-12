@@ -65,6 +65,8 @@ There are several ways to obtain the data that drives a scoreboard such as this.
 - could be taken down
 - changed at any time rendering your scoreboard code useless.
 
+I'm not responsible if you end up with a useless brick of hardware if this is api is taken down and my code doesn't work.
+
 You can use this to manipulate the data to your liking by changing the fetch URL and the guide above. For example if you wanted a future or past date, a specific team, a specific conference, etc you can append the url request.
 
 I have set my repo to only request every couple minutes as to not cause a burden on their servers. Overrequesting could cause your IP to get banned.
