@@ -23,6 +23,8 @@ If you choose to embark on this project, don't blame me if it fails or if the da
 #### Hardware
 Once you have all your parts secured I recommend following [this](https://learn.adafruit.com/adafruit-rgb-matrix-plus-real-time-clock-hat-for-raspberry-pi/overview) great tutorial from Adafruit for building and soldering your Matrix Hat. There are many guides on setting up a RaspberryPi for for the first time. I recommend using RaspberryOS Lite because you will not need a GUI and it will hog resources that may impact your performance. Another thing I recommend is setting up SSH so that you can remotely login to your pi and shut it down from other computers or phone apps like [Terminus](https://termius.com/). Once you have your Pi all set up, it wouldn't hurt to try some of the examples from the [rpi-rgb-led-matrix](https://github.com/hzeller/rpi-rgb-led-matrix) from hzeller that is the lifeblood of this project which there are several tutorials for. This will give you a feel for your display and it's capabilities and settings that work best for you.
 
+As for the enclosure, that's up to your led matrix pitch size and manufactur. I modeled an enclosure and mount for my pi in Fusion 360 and printed it on a Ender 3 3D printer with PLA filament. There are different brackets and enclosures available on Thingiverse. You could also make it out of metal or wood. Keep ventilliation in mind. A fan or aluminum heatsink would be ideal for a Pi 4 since it runs hot.
+
 #### Software
 When you are all setup and have some example work under your belt, the next step to take is to install the PixelPusher server [(using James Warner's fork)](https://jmswrnr.com/) on your pi using:
 ```
