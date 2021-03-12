@@ -49,7 +49,7 @@ sudo ./pixel-push \
   --led-brightness=50 \
   --led-pwm-bits=11
 ```
-If all is well then you should see that PixelPusher discovery has begun broadcasting to a port which is where the fun can begin. You can set your pi and matrices aside and move to a device like a desktop or laptop that you want to control from.. Download this repo to that device. Once downloaded you will need to install the necessary node_modules. To do this use terminal or command prompt to navigate to your downloaded file directory and run `npm install`. The required packages should download, be patient if there's some delay on the node-canvas module.
+If all is well then you should see that PixelPusher discovery has begun broadcasting to a port which is where the fun can begin. You can set your pi and matrices aside and move to a device like a desktop or laptop that you want to control from. Download this repo to that device and make sure you have NodeJS installed on your machine. I've tested on v13 and v15 without issues. Navigate to where you downloaded this project in a command line or terminal. You'll need to install the necessary node_modules for the project. To do this use terminal or command prompt to navigate to your downloaded file directory and run `npm install`. The required packages should download, be patient if there's some delay on the node-canvas module.
 
 Once all the modules are installed, ***manually installing the included font to your system*** as I was having problems getting the canvas to import the font correctly.
 
