@@ -1,0 +1,25 @@
+{
+  "name": "cbb-led-matrix",
+  "version": "1.0.0",
+  "description": "Display live college basketball scores on a 126x32 LED Matrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "JT",
+  "license": "ISC",
+  "dependencies": {
+    "canvas": "^2.7.0",
+    "node-fetch": "^2.6.1",
+    "node-pixel-pusher": "^1.0.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jcattela/cbb-led-matrix.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jcattela/cbb-led-matrix/issues"
+  },
+  "homepage": "https://github.com/jcattela/cbb-led-matrix#readme"
+}
