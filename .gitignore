@@ -1,3 +1,6 @@
 /node_modules
 /img/list.csv
 /img/protomatter_dither.py
+/index.html
+/img/*.png
+draw.js
