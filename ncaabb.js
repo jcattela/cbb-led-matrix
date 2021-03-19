@@ -129,7 +129,7 @@ function updateGame(gameNum) {
 //============================ Function to Fetch JSON data ========================================//
 
 async function displayresults() {
-	await fetch('http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?limit=300&groups=50')
+	await fetch('http://site.api.espn.com/apis/site/v2/sports/basketball/mens-college-basketball/scoreboard?limit=300&groups=100')
 	  .then(response => response.json())
 	  .then(data => {gameData = data});
 
